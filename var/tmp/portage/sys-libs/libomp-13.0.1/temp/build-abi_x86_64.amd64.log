@@ -1,0 +1,166 @@
+ [32m*[0m abi_x86_64.amd64: running multilib-minimal_abi_src_configure
+ [32m*[0m Source directory (CMAKE_USE_DIR): "/var/tmp/portage/sys-libs/libomp-13.0.1/work/openmp"
+ [32m*[0m Build directory  (BUILD_DIR):     "/var/tmp/portage/sys-libs/libomp-13.0.1/work/libomp-13.0.1_build-abi_x86_64.amd64"
+cmake -C /var/tmp/portage/sys-libs/libomp-13.0.1/work/libomp-13.0.1_build-abi_x86_64.amd64/gentoo_common_config.cmake -G Ninja -DCMAKE_INSTALL_PREFIX=/usr -DOPENMP_LIBDIR_SUFFIX=64 -DLIBOMP_USE_HWLOC=no -DLIBOMP_OMPT_SUPPORT=no -DOPENMP_ENABLE_LIBOMPTARGET=no -DLIBOMP_INSTALL_ALIASES=OFF -DLIBOMP_COPY_EXPORTS=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=/var/tmp/portage/sys-libs/libomp-13.0.1/work/libomp-13.0.1_build-abi_x86_64.amd64/gentoo_toolchain.cmake /var/tmp/portage/sys-libs/libomp-13.0.1/work/openmp
+loading initial cache file /var/tmp/portage/sys-libs/libomp-13.0.1/work/libomp-13.0.1_build-abi_x86_64.amd64/gentoo_common_config.cmake
+-- The C compiler identification is Clang 13.0.0
+-- The CXX compiler identification is Clang 13.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/llvm/13/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/llvm/13/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test OPENMP_HAVE_WALL_FLAG
+-- Performing Test OPENMP_HAVE_WALL_FLAG - Success
+-- Performing Test OPENMP_HAVE_WERROR_FLAG
+-- Performing Test OPENMP_HAVE_WERROR_FLAG - Success
+-- Performing Test OPENMP_HAVE_WCAST_QUAL_FLAG
+-- Performing Test OPENMP_HAVE_WCAST_QUAL_FLAG - Success
+-- Performing Test OPENMP_HAVE_WFORMAT_PEDANTIC_FLAG
+-- Performing Test OPENMP_HAVE_WFORMAT_PEDANTIC_FLAG - Success
+-- Performing Test OPENMP_HAVE_WIMPLICIT_FALLTHROUGH_FLAG
+-- Performing Test OPENMP_HAVE_WIMPLICIT_FALLTHROUGH_FLAG - Success
+-- Performing Test OPENMP_HAVE_WSIGN_COMPARE_FLAG
+-- Performing Test OPENMP_HAVE_WSIGN_COMPARE_FLAG - Success
+-- Performing Test OPENMP_HAVE_WNO_EXTRA_FLAG
+-- Performing Test OPENMP_HAVE_WNO_EXTRA_FLAG - Success
+-- Performing Test OPENMP_HAVE_WNO_PEDANTIC_FLAG
+-- Performing Test OPENMP_HAVE_WNO_PEDANTIC_FLAG - Success
+-- Performing Test OPENMP_HAVE_WNO_MAYBE_UNINITIALIZED_FLAG
+-- Performing Test OPENMP_HAVE_WNO_MAYBE_UNINITIALIZED_FLAG - Failed
+-- Performing Test OPENMP_HAVE_STD_CPP14_FLAG
+-- Performing Test OPENMP_HAVE_STD_CPP14_FLAG - Success
+-- Found PythonInterp: /usr/bin/python (found version "3.9.11") 
+-- Cannot find llvm-lit.
+-- Please put llvm-lit in your PATH, set OPENMP_LLVM_LIT_EXECUTABLE to its full path, or point OPENMP_LLVM_TOOLS_DIR to its directory.
+CMake Warning at cmake/OpenMPTesting.cmake:22 (message):
+  The check targets will not be available!
+Call Stack (most recent call first):
+  cmake/OpenMPTesting.cmake:51 (find_standalone_test_dependencies)
+  CMakeLists.txt:49 (include)
+
+
+-- Performing Test LIBOMP_HAVE_FNO_EXCEPTIONS_FLAG
+-- Performing Test LIBOMP_HAVE_FNO_EXCEPTIONS_FLAG - Success
+-- Performing Test LIBOMP_HAVE_FNO_RTTI_FLAG
+-- Performing Test LIBOMP_HAVE_FNO_RTTI_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WNO_CLASS_MEMACCESS_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_CLASS_MEMACCESS_FLAG - Failed
+-- Performing Test LIBOMP_HAVE_WNO_COVERED_SWITCH_DEFAULT_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_COVERED_SWITCH_DEFAULT_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WNO_FRAME_ADDRESS_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_FRAME_ADDRESS_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WNO_STRICT_ALIASING_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_STRICT_ALIASING_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WSTRINGOP_OVERFLOW_FLAG
+-- Performing Test LIBOMP_HAVE_WSTRINGOP_OVERFLOW_FLAG - Failed
+-- Performing Test LIBOMP_HAVE_WNO_STRINGOP_TRUNCATION_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_STRINGOP_TRUNCATION_FLAG - Failed
+-- Performing Test LIBOMP_HAVE_WNO_SWITCH_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_SWITCH_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WNO_UNINITIALIZED_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_UNINITIALIZED_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WNO_UNUSED_BUT_SET_VARIABLE_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_UNUSED_BUT_SET_VARIABLE_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WNO_RETURN_TYPE_C_LINKAGE_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_RETURN_TYPE_C_LINKAGE_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WNO_CAST_QUAL_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_CAST_QUAL_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WNO_INT_TO_VOID_POINTER_CAST_FLAG
+-- Performing Test LIBOMP_HAVE_WNO_INT_TO_VOID_POINTER_CAST_FLAG - Success
+-- Performing Test LIBOMP_HAVE_MSSE2_FLAG
+-- Performing Test LIBOMP_HAVE_MSSE2_FLAG - Success
+-- Performing Test LIBOMP_HAVE_FTLS_MODEL_FLAG
+-- Performing Test LIBOMP_HAVE_FTLS_MODEL_FLAG - Success
+-- Performing Test LIBOMP_HAVE_MMIC_FLAG
+-- Performing Test LIBOMP_HAVE_MMIC_FLAG - Failed
+-- Performing Test LIBOMP_HAVE_M32_FLAG
+-- Performing Test LIBOMP_HAVE_M32_FLAG - Success
+-- Looking for shm_open
+-- Looking for shm_open - found
+-- Performing Test LIBOMP_HAVE_X_FLAG
+-- Performing Test LIBOMP_HAVE_X_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WARN_SHARED_TEXTREL_FLAG
+-- Performing Test LIBOMP_HAVE_WARN_SHARED_TEXTREL_FLAG - Success
+-- Performing Test LIBOMP_HAVE_AS_NEEDED_FLAG
+-- Performing Test LIBOMP_HAVE_AS_NEEDED_FLAG - Success
+-- Performing Test LIBOMP_HAVE_VERSION_SCRIPT_FLAG
+-- Performing Test LIBOMP_HAVE_VERSION_SCRIPT_FLAG - Success
+-- Performing Test LIBOMP_HAVE_STATIC_LIBGCC_FLAG
+-- Performing Test LIBOMP_HAVE_STATIC_LIBGCC_FLAG - Success
+-- Performing Test LIBOMP_HAVE_Z_NOEXECSTACK_FLAG
+-- Performing Test LIBOMP_HAVE_Z_NOEXECSTACK_FLAG - Success
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for immintrin.h
+-- Looking for immintrin.h - found
+-- Performing Test LIBOMP_HAVE_ATTRIBUTE_RTM
+-- Performing Test LIBOMP_HAVE_ATTRIBUTE_RTM - Success
+-- Performing Test LIBOMP_HAVE_ATTRIBUTE_WAITPKG
+-- Performing Test LIBOMP_HAVE_ATTRIBUTE_WAITPKG - Success
+-- Performing Test LIBOMP_HAVE_WAITPKG_INTRINSICS
+-- Performing Test LIBOMP_HAVE_WAITPKG_INTRINSICS - Success
+-- Performing Test LIBOMP_HAVE_RTM_INTRINSICS
+-- Performing Test LIBOMP_HAVE_RTM_INTRINSICS - Success
+-- Found Perl: /usr/bin/perl (found version "5.34.0") 
+-- Performing Test LIBOMP_HAVE_VERSION_SYMBOLS
+-- Performing Test LIBOMP_HAVE_VERSION_SYMBOLS - Success
+-- Performing Test LIBOMP_HAVE___BUILTIN_FRAME_ADDRESS
+-- Performing Test LIBOMP_HAVE___BUILTIN_FRAME_ADDRESS - Success
+-- Performing Test LIBOMP_HAVE_WEAK_ATTRIBUTE
+-- Performing Test LIBOMP_HAVE_WEAK_ATTRIBUTE - Success
+-- Performing Test LIBOMP_HAVE_PSAPI
+-- Performing Test LIBOMP_HAVE_PSAPI - Failed
+CMake Warning at runtime/cmake/LibompUtils.cmake:20 (message):
+  LIBOMP: OpenMP Debug Interface(OMPD) requested but not available in this
+  implementation
+Call Stack (most recent call first):
+  runtime/CMakeLists.txt:336 (libomp_warning_say)
+
+
+-- LIBOMP: Operating System     -- Linux
+-- LIBOMP: Target Architecture  -- x86_64
+-- LIBOMP: Build Type           -- RelWithDebInfo
+-- LIBOMP: Library Kind         -- SHARED
+-- LIBOMP: Library Type         -- normal
+-- LIBOMP: Fortran Modules      -- FALSE
+-- LIBOMP: Build                -- 20140926
+-- LIBOMP: Use Stats-gathering  -- FALSE
+-- LIBOMP: Use Debugger-support -- FALSE
+-- LIBOMP: Use ITT notify       -- TRUE
+-- LIBOMP: Use OMPT-support     -- no
+-- LIBOMP: Use OMPD-support     -- FALSE
+-- LIBOMP: Use Adaptive locks   -- TRUE
+-- LIBOMP: Use quad precision   -- FALSE
+-- LIBOMP: Use Hwloc library    -- no
+-- Looking for sqrt in m
+-- Looking for sqrt in m - found
+-- Looking for __atomic_load_1
+-- Looking for __atomic_load_1 - not found
+-- Looking for __atomic_load_1 in atomic
+-- Looking for __atomic_load_1 in atomic - found
+-- check-libomp does nothing.
+-- check-ompt does nothing.
+-- check-openmp does nothing.
+-- <<< Gentoo configuration >>>
+Build type      RelWithDebInfo
+Install path    /usr
+Compiler flags:
+C               -march=native -mtune=native -O2 -pipe -flto=thin -Wall -Wcast-qual -Wformat-pedantic -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic
+C++             -march=native -mtune=native -O2 -pipe -flto=thin -Wall -Wcast-qual -Wformat-pedantic -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic -std=c++14
+Linker flags:
+Executable      -fuse-ld=lld -rtlib=compiler-rt -unwindlib=libunwind -Wl,-O2 -Wl,--as-needed -Wl,-z,relro,-z,now
+Module          -fuse-ld=lld -rtlib=compiler-rt -unwindlib=libunwind -Wl,-O2 -Wl,--as-needed -Wl,-z,relro,-z,now
+Shared          -fuse-ld=lld -rtlib=compiler-rt -unwindlib=libunwind -Wl,-O2 -Wl,--as-needed -Wl,-z,relro,-z,now
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /var/tmp/portage/sys-libs/libomp-13.0.1/work/libomp-13.0.1_build-abi_x86_64.amd64
